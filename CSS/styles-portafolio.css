@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --color-azul: #2196F3;
+    --color-texto: #212121;
+    --color-gris: #757575;
+    --color-hueso: #FFFFFF;
+    --color-botones: #F5F4FA;
+    --color-footpage: #2F303A;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-texto);
+}
+
+.webstudio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: bold;
+    line-height: 1.2;
+    color: var(--color-azul);
+}
+
+.content p {
+    font-weight: 700;
+    font-size: 18px;
+    font-style: bold;
+    line-height: 2;
+}
+
+.content a {
+    font-size: 16px;
+    line-height: 1.9;
+    font-style: medium;
+    color: var(--color-gris);
+}
+
+.estudio,
+.contactos,
+.portafolio {
+    font-weight: 500;
+    font-style: medium;
+    line-height: 1.2;
+}
+
+.estudio:hover,
+.contactos:hover,
+.portafolio:hover,
+.estudio:focus,
+.contactos:focus,
+.porafolio:focus {
+    color: var(--color-azul);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.contact a {
+    color: var(--color-gris);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.foot-page {
+    background-color: var(--color-footpage);
+}
+
+.foot-info a {
+    color: var(--color-hueso);
+    line-height: 1.7;
+    opacity: 60%;
+}
+
+.foot-info address {
+    color: var(--color-hueso);
+    line-height: 1.7;
+}
+
+.options button {
+    background-color: var(--color-botones);
+    font-size: 16px;
+    font-style: medium;
+    line-height: 1.6;
+    width: 128px;
+    height: 38px;
+    border: none;
+}
+
+.options button:hover,
+.options button:focus {
+    background-color: var(--color-azul);
+    color: var(--color-hueso);
+    font-style: medium;
+    line-height: 1.6;
+    width: 128px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact a:hover,
+.foot-info a:hover {
+    color: var(--color-azul);
+}

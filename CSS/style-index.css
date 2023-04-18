@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --color-azul: #2196F3;
+    --color-texto: #212121;
+    --color-gris: #757575;
+    --color-hueso: #FFFFFF;
+    --color-behindpage: #2F303A;
+    --color-behindourteam: #F5F4FA;
+
+    --lineweight-normal: 1.2;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-texto);
+
+}
+
+section {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.webstudio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: bold;
+    line-height: var(--lineweight-normal);
+    color: var(--color-azul);
+}
+
+.estudio,
+.contactos,
+.portafolio {
+    font-weight: 500;
+    font-style: medium;
+    line-height: var(--lineweight-normal);
+}
+
+.estudio:hover,
+.contactos:hover,
+.portafolio:hover,
+.estudio:focus,
+.contactos:focus,
+.porafolio:focus {
+    color: var(--color-azul);
+    font-weight: 500;
+    line-height: var(--lineweight-normal);
+}
+
+.contact a {
+    color: var(--color-gris);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: var(--lineweight-normal);
+}
+
+.contact a:hover {
+    color: var(--color-azul);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: var(--lineweight-normal);
+}
+
+.main-title {
+    background-color: var(--color-behindpage);
+}
+
+.main-title h1 {
+    color: var(--color-hueso);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.main-title button {
+    background-color: var(--color-azul);
+    color: var(--color-hueso);
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    width: 261px;
+    height: 50px;
+    border: none;
+}
+
+.foot-page {
+    background-color: var(--color-behindpage);
+}
+
+.foot-page address {
+    color: var(--color-hueso);
+    line-height: 1.7;
+}
+
+.foot-page ul a {
+    color: var(--color-hueso);
+    opacity: 60%;
+}
+
+.content1 h3 {
+    font-weight: 700;
+    line-height: var(--lineweight-normal);
+}
+
+.content1 p {
+    color: var(--color-gris);
+    line-height: 1.7;
+}
+
+.content2 h2,
+.content3 h2 {
+    font-size: 36px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: var(--lineweight-normal);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content3 {
+    background-color: var(--color-behindourteam);
+}
+
+.content3 .character h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: var(--lineweight-normal);
+    text-align: center;
+}
+
+.content3 .character p {
+    color: var(--color-gris);
+    line-height: var(--lineweight-normal);
+    text-align: center;
+}
+
+.foot-page ul a:hover {
+    color: var(--color-azul)
+}
+
+.content1 .container {
+    width: 1200px;
+    margin: auto;
+}
+
+.content1 .text {
+    width: 270px;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.content1 .text:last-child {
+    margin-right: 0px;
+}
+
+.content2 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content2 .picture {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.content3 .character {
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px;
+    border-radius: 0px 0px 4px 4px;
+    margin-right: auto;
+}
+
+.content3 .container {
+    display: flex;
+    width: 1200px;
+    height: 648px;
+    margin: auto;
+}
