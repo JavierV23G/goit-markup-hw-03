@@ -21,18 +21,39 @@
 
 section {
     margin: 0px 0px;
-    padding: 0px 0px;
+    padding: 47px 0px;
 }
 
-nav,
-.top-page .container {
+.top-page {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+nav {
+    width: 1200px;
     display: flex;
     align-items: center;
 }
 
 .top-page .container .navigation {
-    gap: 33%;
+    display: flex;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 93px;
     width: 281px;
+    gap: 28px
+}
+
+.top-page .container .contact {
+    display: flex;
+    gap:50px;
+    width: 295px;
+    margin: 0px 0px 0px 344px;
+    padding: 0px 0px;
 }
 
 .webstudio {
@@ -56,7 +77,7 @@ nav,
 .portafolio:hover,
 .estudio:focus,
 .contactos:focus,
-.porafolio:focus {
+.portafolio:focus {
     color: var(--color-azul);
     font-weight: 500;
     line-height: var(--lineweight-normal);
@@ -80,15 +101,22 @@ nav,
     background-color: var(--color-behindpage);
 }
 
+.main-title .container {
+    display: flex;
+    flex-direction: column;
+    height: 506px;
+    align-items: center;
+    justify-content: center;
+}
+
 .main-title h1 {
     color: var(--color-hueso);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
 }
 
-.main-title button {
+.main-title ul button {
     background-color: var(--color-azul);
     color: var(--color-hueso);
     font-weight: 700;
@@ -97,6 +125,84 @@ nav,
     width: 261px;
     height: 50px;
     border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content1 h3 {
+    font-weight: 700;
+    line-height: var(--lineweight-normal);
+}
+
+.content1 p {
+    color: var(--color-gris);
+    line-height: 1.7;
+}
+
+.content1 ul {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0px;
+    gap: 30px;
+}
+
+.content1 ul .text {
+    width: 270px;
+}
+
+.content2 h2,
+.content3 h2 {
+    font-size: 36px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: var(--lineweight-normal);
+    text-align: center;
+}
+
+.content2 .container ul {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    gap: 27px;
+}
+    
+.content3 .character {
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 368px;
+}
+
+.content3 {
+    background-color: var(--color-behindourteam);
+}
+
+.content3 .container ul{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px
+}
+
+.content3 .container ul .character:first-child {
+    margin-left: -30px;
+}
+
+.content3 .character h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: var(--lineweight-normal);
+    text-align: center;
+}
+
+.content3 .character p {
+    color: var(--color-gris);
+    line-height: var(--lineweight-normal);
+    text-align: center;
 }
 
 .foot-page {
@@ -113,85 +219,6 @@ nav,
     opacity: 60%;
 }
 
-.content1 h3 {
-    font-weight: 700;
-    line-height: var(--lineweight-normal);
-}
-
-.content1 p {
-    color: var(--color-gris);
-    line-height: 1.7;
-}
-
-.content2 h2,
-.content3 h2 {
-    font-size: 36px;
-    font-style: bold;
-    font-weight: 700;
-    line-height: var(--lineweight-normal);
-    text-align: center;
-    padding-top: 20px;
-}
-
-.content3 {
-    background-color: var(--color-behindourteam);
-}
-
-.content3 .character h4 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: var(--lineweight-normal);
-    text-align: center;
-}
-
-.content3 .character p {
-    color: var(--color-gris);
-    line-height: var(--lineweight-normal);
-    text-align: center;
-}
-
 .foot-page ul a:hover {
     color: var(--color-azul)
-}
-
-.content1 .container ul {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-}
-
-.content1 ul {
-    width: 270px;
-    vertical-align: top;
-    margin-right: 15px;
-}
-
-.content1 .text:last-child {
-    margin-right: 0px;
-}
-
-.content2 .container ul{
-    display: flex;
-    margin: 0 auto;
-    width: 1200px;
-}
-
-.content2 ul {
-    margin-right: auto;
-}
-
-.content3 .character {
-    background-color: #FFFFFF;
-    width: 270px;
-    height: 368px;
-    box-shadow: 0px 1px 3px;
-    border-radius: 0px 0px 4px 4px;
-    margin-right: auto;
-}
-
-.content3 .container {
-    display: flex;
-    width: 1200px;
-    height: 648px;
-    margin: 0 auto;
 }
