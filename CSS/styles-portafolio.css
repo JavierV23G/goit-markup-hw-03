@@ -14,6 +14,44 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: var(--color-texto);
+    box-sizing: border-box;
+}
+
+section {
+    margin: 0px 0px;
+    padding: 47px 0px;
+}
+
+.top-container {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+nav {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.top-container .navigation {
+    display: flex;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 93px;
+    width: 281px;
+    gap: 28px
+}
+
+.top-container .contact {
+    display: flex;
+    gap: 50px;
+    width: 350px;
+    margin: 0px 0px 0px 344px;
+    padding: 0px 0px;
 }
 
 .webstudio {
@@ -57,26 +95,10 @@
     line-height: 1.2;
 }
 
-
 .contact a {
     color: var(--color-gris);
     font-weight: 500;
     line-height: 1.2;
-}
-
-.foot-page {
-    background-color: var(--color-footpage);
-}
-
-.foot-info a {
-    color: var(--color-hueso);
-    line-height: 1.7;
-    opacity: 60%;
-}
-
-.foot-info address {
-    color: var(--color-hueso);
-    line-height: 1.7;
 }
 
 .options button {
@@ -101,7 +123,28 @@
     cursor: pointer;
 }
 
+.options .container {
+    display: flex;
+    margin: 0 auto;
+    width: ;
+}
+
 .contact a:hover,
 .foot-info a:hover {
     color: var(--color-azul);
+}
+
+.foot-page {
+    background-color: var(--color-footpage);
+}
+
+.foot-info a {
+    color: var(--color-hueso);
+    line-height: 1.7;
+    opacity: 60%;
+}
+
+.foot-info address {
+    color: var(--color-hueso);
+    line-height: 1.7;
 }
