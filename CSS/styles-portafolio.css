@@ -54,7 +54,8 @@ nav {
     padding: 0px 0px;
 }
 
-.webstudio {
+.webstudio,
+.foot-info .webstudio {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-style: bold;
@@ -62,18 +63,28 @@ nav {
     color: var(--color-azul);
 }
 
-.content p {
+.main-content .images p {
     font-weight: 700;
     font-size: 18px;
     font-style: bold;
-    line-height: 2;
+    line-height: 1;
+    margin: 0px 0px;
+    padding: 20px 24px 10px 24px;
 }
 
-.content a {
+.main-content .images a {
     font-size: 16px;
     line-height: 1.9;
     font-style: medium;
     color: var(--color-gris);
+    padding: 20px 24px 20px 24px;
+}
+
+.main-content .images li {
+    background-color: var(--color-hueso);
+    width: 370px;
+    height: 404px;
+    box-shadow: 1px 4px 6px 0px #00000029;
 }
 
 .estudio,
@@ -101,32 +112,57 @@ nav {
     line-height: 1.2;
 }
 
-.options button {
+.main-content button {
     background-color: var(--color-botones);
     font-size: 16px;
     font-style: medium;
     line-height: 1.6;
-    width: 128px;
+    width: auto;
     height: 38px;
     border: none;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px 24px;
 }
 
-.options button:hover,
-.options button:focus {
+.main-content button:hover,
+.main-content button:focus {
     background-color: var(--color-azul);
     color: var(--color-hueso);
     font-style: medium;
     line-height: 1.6;
-    width: 128px;
+    padding: 6px 24px;
+    width: auto;
     height: 38px;
     border: none;
     cursor: pointer;
 }
 
-.options .container {
+.main-content .container {
     display: flex;
     margin: 0 auto;
-    width: ;
+    width: 1200px;
+    height: 1360px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    flex-direction: column;
+}
+
+.main-content .container .images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+    gap: 30px;
+}
+
+.main-content .container .buttons {
+    display: flex;
+    width: 611px;
+    height: 54px;
+    padding: 0px 0px;
+    gap: 8px;
+    margin: 0px 0px;
 }
 
 .contact a:hover,
@@ -135,7 +171,13 @@ nav {
 }
 
 .foot-page {
+    display: flex;
     background-color: var(--color-footpage);
+    width: 1600px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 0 auto;
 }
 
 .foot-info a {
