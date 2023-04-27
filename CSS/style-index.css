@@ -22,12 +22,12 @@
 section {
     margin: 0px 0px;
     padding: 47px 0px;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .top-page {
-    width: 1200px;
     height: 80px;
-    margin: 0 auto;
     padding: 0px 0px;
     align-items: center;
     justify-content: center;
@@ -45,18 +45,19 @@ nav {
     padding: 0px 0px;
     margin: 0px 0px 0px 93px;
     width: 281px;
-    gap: 28px;
+    justify-content: space-between;
 }
 
 .top-page .container .contact {
     display: flex;
-    gap:50px;
+    justify-content: space-between;
     width: 295px;
     margin: 0px 0px 0px 344px;
     padding: 0px 0px;
 }
 
-.webstudio {
+.webstudio,
+.foot-info .webstudio {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-style: bold;
@@ -136,7 +137,7 @@ nav {
 
 .content1 p {
     color: var(--color-gris);
-    line-height: 1.7;
+    line-height: 24px;
 }
 
 .content1 ul {
@@ -144,7 +145,7 @@ nav {
     margin: 0 auto;
     width: 1200px;
     padding: 0px;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .content1 ul .text {
@@ -160,12 +161,15 @@ nav {
     text-align: center;
 }
 
+.content2 {
+    padding: 0px 0px 47px 0px;
+}
 .content2 .container ul {
     display: flex;
     width: 1200px;
     margin: 0 auto;
     padding: 0px;
-    gap: 27px;
+    justify-content: space-between;
 }
     
 .content3 .character {
@@ -182,14 +186,14 @@ nav {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0px
 }
 
-.content3 .container ul .character:first-child {
-    margin-left: -30px;
+.content3 h2 {
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .content3 .character h4 {
@@ -206,19 +210,54 @@ nav {
 }
 
 .foot-page {
+    display: flex;
     background-color: var(--color-behindpage);
+    width: 1600px;
+    height: 252px;
+    padding: 0px 0px;
 }
 
-.foot-page address {
+.foot-page .container {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.foot-page ul  {
+    margin: 60px 70px 47px 0px;
+    padding: 0px 0px;
+    width: 231px;
+    height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 24px;
+}
+
+.foot-info .webstudio {
+    margin-bottom: 20px;
+}
+
+.foot-info li a {
     color: var(--color-hueso);
     line-height: 1.7;
-}
-
-.foot-page ul a {
-    color: var(--color-hueso);
     opacity: 60%;
 }
 
-.foot-page ul a:hover {
-    color: var(--color-azul)
+.foot-info address {
+    color: var(--color-hueso);
+    line-height: 1.7;
+    font-style: normal;
+}
+
+.foot-page .find-us p {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--color-hueso);
+}
+
+.foot-page .container .find-us li {
+    margin-bottom: 143px;
 }

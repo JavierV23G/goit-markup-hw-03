@@ -69,6 +69,15 @@ nav {
     color: var(--color-azul);
 }
 
+.foot-page .find-us p {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--color-hueso);
+    width: 300px;
+}
+
 .main-content .images p {
     font-weight: 700;
     font-size: 18px;
@@ -209,7 +218,11 @@ nav {
     line-height: 24px;
 }
 
-.foot-info a {
+.foot-info .webstudio {
+    margin-bottom: 20px;
+}
+
+.foot-info li a  {
     color: var(--color-hueso);
     line-height: 1.7;
     opacity: 60%;
@@ -221,12 +234,6 @@ nav {
     font-style: normal;
 }
 
-.foot-page .foot-info ul .find-us h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase; 
-    color: var(--color-hueso)
+.foot-page .container .find-us li {
+    margin-bottom: 143px;
 }
